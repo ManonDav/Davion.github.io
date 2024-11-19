@@ -34,3 +34,24 @@ a {
 a:hover {
     color: #0056b3;
 }
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    background-color: #444;
+    padding: 0.5rem;
+    margin: 0;
+}
+
+nav li {
+    margin: 0 1rem;
+}
+
+nav a {
+    color: white;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ffa500;
+}
