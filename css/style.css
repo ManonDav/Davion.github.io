@@ -56,24 +56,54 @@ nav a:hover {
     color: #ffa500;
 }
 
-.card {
+/* Styliser la section des projets */
+#projects {
+    padding: 2rem;
+    background-color: #f9f9f9;
+}
+
+/* Conteneur de chaque projet */
+.project {
+    display: flex;
+    align-items: center; /* Aligner verticalement */
+    margin-bottom: 2rem; /* Espacement entre les projets */
     background: white;
     border: 1px solid #ddd;
     border-radius: 8px;
-    padding: 1rem;
-    margin: 1rem 0;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
 }
 
-.card h3 {
-    margin-top: 0;
+/* Image du projet */
+.project-image {
+    width: 150px; /* Ajuster la largeur */
+    height: auto; /* Conserver les proportions */
+    margin-right: 1rem; /* Espacement avec la description */
+    border-radius: 8px; /* Coins arrondis */
 }
 
-.card a {
-    color: #007BFF;
+/* Description du projet */
+.project-description {
+    flex: 1; /* Prend le reste de l'espace disponible */
+}
+
+/* Titre du projet */
+.project-description h3 {
+    margin: 0 0 0.5rem;
+}
+
+/* Lien GitHub */
+.project-description a {
+    display: inline-block;
+    margin-top: 0.5rem;
+    padding: 0.5rem 1rem;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
     font-weight: bold;
 }
 
-.card a:hover {
-    color: #0056b3;
+.project-description a:hover {
+    background-color: #0056b3;
 }
