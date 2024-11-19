@@ -55,3 +55,25 @@ nav a {
 nav a:hover {
     color: #ffa500;
 }
+
+.card {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1rem;
+    margin: 1rem 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card h3 {
+    margin-top: 0;
+}
+
+.card a {
+    color: #007BFF;
+    font-weight: bold;
+}
+
+.card a:hover {
+    color: #0056b3;
+}
