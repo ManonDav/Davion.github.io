@@ -156,21 +156,22 @@ nav a:hover {
 
 body {
     display: flex;
-    flex-direction: row; /* Structure verticale */
-    min-height: 100vh; /* Fixe la hauteur au viewport */
+    flex-direction: column; /* Structure verticale */
+    height: 100vh; /* Fixe la hauteur au viewport */
     margin: 0; /* Supprime les marges par défaut */
     overflow-x: hidden; /* Empêche le défilement horizontal */
+    justify-content: space-between; /* Espacement entre les sections */
 }
 
 /* Section principale */
 main {
     flex: 1; /* Prend tout l'espace disponible entre le header et le footer */
     display: flex;
-    justify-content: center; /* Centre le contenu horizontalement */
-    align-items: center; /* Centre le contenu verticalement */
-    padding: 1rem; /* Ajoute un peu d'espace autour du contenu */
+    flex-direction: column; /* Organise les éléments verticalement */
+    align-items: center; /* Centre tous les éléments horizontalement */
+    justify-content: center; /* Centre tous les éléments verticalement */
+    padding: 2rem; /* Ajoute un peu d'espace autour du contenu */
     box-sizing: border-box; /* Inclut le padding dans la taille */
-    overflow: hidden; /* Empêche le contenu de déborder */
 }
 
 #contact {
