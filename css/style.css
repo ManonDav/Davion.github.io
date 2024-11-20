@@ -56,6 +56,31 @@ nav a:hover {
     color: #ffa500;
 }
 
+/* Section à propos de moi */
+#about-me {
+    text-align: center; /* Centrer horizontalement le contenu */
+    margin: 2rem auto; /* Ajouter un espacement vertical et centrer horizontalement */
+    max-width: 800px; /* Limiter la largeur de la section */
+    padding: 2rem;
+    background-color: #f9f9f9; /* Couleur d'arrière-plan pour démarquer */
+    border-radius: 10px; /* Coins arrondis */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Ombre douce pour l'esthétique */
+}
+
+/* Titre de l'introduction */
+#about-me h1 {
+    font-size: 2.5rem; /* Taille du texte du titre */
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+/* Texte de l'introduction */
+#about-me p {
+    font-size: 1.2rem; /* Taille du texte du paragraphe */
+    line-height: 1.6; /* Espacement entre les lignes */
+    color: #555;
+}
+
 /* Styliser la section des projets */
 #projects {
     padding: 2rem;
@@ -73,7 +98,7 @@ nav a:hover {
     border: 1px solid #ddd;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    width: 100%; /* Prendre toute la largeur disponible */
+    width: 98%; /* Prendre toute la largeur disponible */
 }
 
 /* Image du projet */
