@@ -161,3 +161,26 @@ nav a:hover {
 .project-description a:hover {
     background-color: #0056b3;
 }
+
+/* Footer principal */
+#main-footer {
+    background-color: #000; /* Bandeau noir */
+    color: #fff; /* Texte blanc */
+    text-align: center; /* Texte centré */
+    padding: 1rem 0; /* Espacement vertical */
+    position: fixed; /* Fixer le footer en bas de la page */
+    bottom: 0; /* Positionner au bas */
+    width: 100%; /* Prendre toute la largeur */
+    font-size: 0.9rem; /* Taille du texte légèrement réduite */
+    z-index: 1000; /* S'assurer qu'il reste au-dessus des autres éléments */
+}
+
+/* Liens dans le footer */
+#main-footer a {
+    color: #fff; /* Couleur des liens */
+    text-decoration: none; /* Pas de soulignement */
+}
+
+#main-footer a:hover {
+    text-decoration: underline; /* Soulignement au survol */
+}
