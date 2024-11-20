@@ -5,10 +5,6 @@
     text-align: center;
 }
 
-section {
-    padding: 2rem;
-}
-
 ul {
     list-style: none;
     padding: 0;
@@ -195,21 +191,3 @@ section {
     padding: 1rem;
 }
 
-/* Empêcher les éléments de déborder horizontalement */
-* {
-    box-sizing: border-box; /* Inclut padding et bordure dans la taille totale */
-    overflow-x: hidden; /* Empêche le défilement horizontal */
-}
-
-/* Mise en page pour les projets, ajustez selon besoin */
-.project {
-    width: 100%;
-    max-width: 500px; /* Limite la largeur des projets */
-    margin: 20px auto; /* Centrer chaque projet */
-}
-
-/* Exemple d'image (GIF ou autre) */
-.project img {
-    width: 100%; /* L'image prend toute la largeur du projet */
-    height: auto; /* Garde les proportions */
-}
