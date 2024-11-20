@@ -93,7 +93,7 @@ nav a:hover {
 /* Bouton GitHub */
 .project-description a {
     display: inline-block;
-    padding: 0.5rem 5rem;
+    padding: 0.5rem 1rem;
     background-color: #007BFF;
     color: white;
     text-decoration: none;
