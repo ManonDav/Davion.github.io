@@ -1,7 +1,15 @@
 #main-header {
+    background-color: #000;
+    color: #fff;
+    padding: 1rem;
+    text-align: center; /* Centrer le texte */
+    width: 100%; /* S'assurer qu'il occupe toute la largeur */
+}
+
+header {
     background-color: #333;
     color: white;
-    padding: 1rem 0;
+    padding: 1rem;
     text-align: center;
 }
 
