@@ -1,7 +1,7 @@
-header {
-    background-color: #333;
-    color: white;
-    padding: 1rem;
+#main-header {
+    background-color: #000;
+    color: #fff;
+    padding: 1rem 0;
     text-align: center;
 }
 
@@ -180,10 +180,8 @@ main {
 
 /* Footer principal */
 #main-footer {
-    background-color: #000; /* Fond noir */
-    color: #fff; /* Texte blanc */
-    text-align: center; /* Texte centré */
-    padding: 1rem 0; /* Espacement vertical */
-    width: 100%; /* Prendre toute la largeur */
-    font-size: 0.9rem; /* Taille du texte légèrement réduite */
+    background-color: #000;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
 }
