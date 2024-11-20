@@ -156,7 +156,7 @@ nav a:hover {
 
 body {
     display: flex;
-    flex-direction: column; /* Structure verticale */
+    flex-direction: row; /* Structure verticale */
     min-height: 100vh; /* Fixe la hauteur au viewport */
     margin: 0; /* Supprime les marges par défaut */
     overflow-x: hidden; /* Empêche le défilement horizontal */
