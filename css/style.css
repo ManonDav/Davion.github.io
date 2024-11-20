@@ -78,7 +78,7 @@ nav a:hover {
 
 /* Image du projet */
 .project-image {
-    width: 150px; /* Taille ajustée pour les GIF */
+    width: 250px; /* Taille ajustée pour les GIF */
     height: auto; /* Conserver les proportions */
     margin-right: 1rem; /* Espacement avec la description */
     border-radius: 8px; /* Coins arrondis */
@@ -93,7 +93,7 @@ nav a:hover {
 /* Bouton GitHub */
 .project-description a {
     display: inline-block;
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 5rem;
     background-color: #007BFF;
     color: white;
     text-decoration: none;
