@@ -173,9 +173,10 @@ main {
     display: flex;
     flex-direction: column; /* Organise les éléments verticalement */
     align-items: center; /* Centre tous les éléments horizontalement */
-    justify-content: center; /* Centre tous les éléments verticalement */
+    justify-content: flex-start; /* Garde tout le contenu en haut */
     padding: 2rem; /* Ajoute un peu d'espace autour du contenu */
     box-sizing: border-box; /* Inclut le padding dans la taille */
+    width: 100%; /* S'assure que la section principale occupe toute la largeur */
 }
 
 #contact {
