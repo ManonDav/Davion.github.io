@@ -66,7 +66,7 @@ nav a:hover {
 #about-me .content {
     display: flex; /* Structure avec texte et photo */
     justify-content: space-between; /* Espacement entre texte et photo */
-    align-items: center; /* Alignement vertical */
+    align-items: center; 
     max-width: 1200px; /* Largeur maximale pour limiter le contenu */
     width: 100%; /* Prendre toute la largeur disponible */
 }
