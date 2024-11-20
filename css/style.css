@@ -186,3 +186,30 @@ main {
     padding: 1rem 0;
     text-align: center;
 }
+
+section {
+    width: 100%; /* Prend toute la largeur de l'écran */
+    max-width: 1200px; /* Limite la largeur pour éviter que le contenu soit trop étendu */
+    margin: 0 auto; /* Centre le contenu horizontalement */
+    text-align: center; /* Centrer le texte dans chaque section */
+    padding: 1rem;
+}
+
+/* Empêcher les éléments de déborder horizontalement */
+* {
+    box-sizing: border-box; /* Inclut padding et bordure dans la taille totale */
+    overflow-x: hidden; /* Empêche le défilement horizontal */
+}
+
+/* Mise en page pour les projets, ajustez selon besoin */
+.project {
+    width: 100%;
+    max-width: 500px; /* Limite la largeur des projets */
+    margin: 20px auto; /* Centrer chaque projet */
+}
+
+/* Exemple d'image (GIF ou autre) */
+.project img {
+    width: 100%; /* L'image prend toute la largeur du projet */
+    height: auto; /* Garde les proportions */
+}
