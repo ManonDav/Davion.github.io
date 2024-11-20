@@ -64,37 +64,35 @@ nav a:hover {
 
 /* Conteneur de chaque projet */
 .project {
-    display: grid; /* Utilisation de Grid pour structurer */
-    grid-template-columns: 1fr 2fr auto; /* Colonnes : image, description, bouton */
-    gap: 1rem; /* Espacement entre les colonnes */
+    display: flex; /* Utilisation de Flexbox */
     align-items: center; /* Aligner verticalement les éléments */
+    justify-content: space-between; /* Espacement uniforme entre les colonnes */
     margin-bottom: 2rem; /* Espacement entre les projets */
     padding: 1rem;
     background: white;
     border: 1px solid #ddd;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    max-width: 900px; /* Largeur maximale du bloc */
-    margin-left: auto; /* Centrer horizontalement */
-    margin-right: auto;
+    width: 100%; /* Prendre toute la largeur disponible */
 }
 
 /* Image du projet */
 .project-image {
-    width: 200px; /* Taille augmentée pour voir le GIF */
-    height: auto; /* Maintenir les proportions */
+    width: 150px; /* Taille ajustée pour les GIF */
+    height: auto; /* Conserver les proportions */
+    margin-right: 1rem; /* Espacement avec la description */
     border-radius: 8px; /* Coins arrondis */
 }
 
 /* Description du projet */
 .project-description {
-    padding: 0 1rem;
+    flex: 2; /* La description occupe plus de place */
+    margin-right: 1rem; /* Espacement avec le bouton */
 }
 
 /* Bouton GitHub */
 .project-description a {
-    display: block;
-    margin-top: 0.5rem;
+    display: inline-block;
     padding: 0.5rem 1rem;
     background-color: #007BFF;
     color: white;
@@ -102,7 +100,7 @@ nav a:hover {
     border-radius: 4px;
     font-weight: bold;
     text-align: center;
-    white-space: nowrap; /* Empêche le texte de passer à la ligne */
+    white-space: nowrap; /* Empêche le bouton de se déformer */
 }
 
 .project-description a:hover {
