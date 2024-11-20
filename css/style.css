@@ -98,7 +98,7 @@ nav a:hover {
     border: 1px solid #ddd;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    width: 98%; /* Prendre toute la largeur disponible */
+    width: 90%; /* Prendre toute la largeur disponible */
 }
 
 /* Image du projet */
