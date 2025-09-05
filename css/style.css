@@ -85,6 +85,10 @@ nav a:hover {
     margin-bottom: 1rem;
 }
 
+#about-me h2 {
+    color: #dcd4f1;
+}
+
 #about-me p {
     font-size: 1.2rem;
     line-height: 1.6;
