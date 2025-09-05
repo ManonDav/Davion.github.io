@@ -86,7 +86,8 @@ nav a:hover {
 }
 
 #about-me h2 {
-    color: #c4b6df;
+    color: #9469e7;
+    text-decoration: underline;
 }
 
 #about-me p {
