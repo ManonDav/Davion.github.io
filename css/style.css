@@ -74,7 +74,7 @@ nav a:hover {
 /* Texte dans l'introduction */
 #about-me .text {
     flex: 2; /* Le texte occupe deux fois plus d’espace que l'image */
-    text-align: center; /* Centrer le texte */
+    text-align: left; /* Centrer le texte */
     padding-right: 1rem;
 }
 
