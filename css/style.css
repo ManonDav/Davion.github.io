@@ -60,7 +60,8 @@ nav a:hover {
     display: flex; 
     justify-content: center; 
     box-sizing: border-box;
-    margin-bottom: 2rem; /* Espace avec la section suivante */
+    margin-bottom: 2rem; 
+    border-radius: 12px;
 }
 
 /* Contenu de la section */
@@ -181,6 +182,7 @@ main {
 
 #contact {
     background-color: #c4b6df;
+    border-radius: 12px;
 }
 
 #contact h2{
