@@ -180,7 +180,6 @@ main {
 }
 
 #contact {
-    padding: 2rem;
     background-color: #c4b6df;
 }
 
@@ -198,7 +197,6 @@ main {
 
 section {
     width: 100%; 
-    margin: 0 auto; 
     text-align: center; 
     padding: 1rem;
 }
