@@ -36,9 +36,41 @@
                 <img src="images/PyXAI.png" alt="PyXAI" class="project-image">
                 <div class="project-description">
                     <h3>Le framework d'explicabilité de l'IA : PyXAI</h3>
-                    <p>Au cours de mon premier stage qui s'est déroulé au sein du CRIL (le centre de recherche en informatique de Lens), j'ai pu aider à développer la bibliothèque PyXAI en y intégrant différentes manières d'expliquer pourquoi l'intelligence artificielle retourner ce résultat en utilisant la méthode Sat par exemple avec PySat, ou la méthode MIP (Mixed integer Programming) avec Cplex et Gurobi ainsi que sous la forme du problème de Satisfaction par contrainte avec orthools. </p>
+                    
+                    <p>
+                        Aujourd’hui, de nombreux modèles d’intelligence artificielle (IA) fonctionnent comme de véritables 
+                        « boîtes noires » : ils donnent une prédiction (par exemple reconnaître une image ou approuver un crédit), 
+                        mais sans expliquer clairement <strong>pourquoi</strong>.  
+                        C’est ce qu’on appelle le problème de <strong>l’explicabilité de l’IA</strong> : aider les humains à comprendre 
+                        les décisions prises par un algorithme.
+                    </p>
+                    
+                    <p>
+                        <strong>PyXAI</strong> est une bibliothèque open-source développée au <strong>CRIL</strong> qui fournit des outils 
+                        pour analyser et expliquer les résultats de modèles de machine learning.  
+                        Elle permet, par exemple, de répondre à des questions comme :  
+                        <em>« Quelles sont les caractéristiques les plus importantes qui ont conduit ce modèle à cette décision ? »</em>  
+                        ou encore <em>« Que faudrait-il changer dans les données pour obtenir une décision différente ? »</em>
+                    </p>
+                    
+                    <p>
+                        Durant mon stage, j’ai contribué au développement de cette bibliothèque en intégrant plusieurs méthodes 
+                        d’explication :
+                    </p>
+                    <ul>
+                        <li><strong>PySAT</strong> pour produire des explications basées sur la logique SAT (raisonnement logique) ;</li>
+                        <li><strong>MIP</strong> (programmation linéaire en nombres entiers) avec <strong>Cplex</strong> et <strong>Gurobi</strong> 
+                            pour formuler et résoudre des explications sous forme d’optimisation mathématique ;</li>
+                        <li><strong>Ortools</strong> pour modéliser les explications comme des problèmes de satisfaction de contraintes.</li>
+                    </ul>
+                    
+                    <p>
+                        J’ai aussi participé à la <strong>refactorisation du code</strong> et à la mise en place de 
+                        <strong>nouvelles stratégies d’optimisation</strong>, ce qui a rendu la bibliothèque plus flexible, performante 
+                        et simple à utiliser pour la communauté scientifique.
+                    </p>
                 </div>
-                <a href="https://www.cril.univ-artois.fr/software/pyxai/" target="_blank">Voir le projet </a>
+                <a href="https://www.cril.univ-artois.fr/software/pyxai/" target="_blank">Voir le projet</a>
             </div>
             <div class="project">
                 <img src="images/snake-game.gif" alt="Snake Game" class="project-image">
