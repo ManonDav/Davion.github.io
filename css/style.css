@@ -99,8 +99,8 @@ nav a:hover {
 }
 
 #about-me .photo img {
-    width: 150px; /* Taille de l'image */
-    height: 150px; /* Taille de l'image */
+    width: 180px; /* Taille de l'image */
+    height: 180px; /* Taille de l'image */
     object-fit: cover; /* Recadrer l'image pour qu'elle soit bien remplie */
     border-radius: 50%; /* Rendre l'image ronde */
     border: 3px solid #ddd; /* Bordure légère autour de la photo */
