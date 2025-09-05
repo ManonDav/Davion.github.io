@@ -2,13 +2,13 @@
     background-color: #000;
     color: #fff;
     padding: 1rem;
-    text-align: center; /* Centrer le texte */
-    width: 100%; /* S'assurer qu'il occupe toute la largeur */
+    text-align: center; 
+    width: 100%; 
 }
 
 header {
-    background-color: #7B68EE;
-    color: white;
+    background-color: #dcd4f1;
+    color: black;
     padding: 1rem;
     text-align: center;
 }
@@ -34,7 +34,7 @@ a:hover {
 nav ul {
     display: flex;
     justify-content: center;
-    background-color: #9370DB;
+    background-color: #c4b6df;
     padding: 0.5rem;
     margin: 0;
 }
@@ -44,7 +44,7 @@ nav li {
 }
 
 nav a {
-    color: white;
+    color: black;
     font-weight: bold;
 }
 
@@ -54,12 +54,12 @@ nav a:hover {
 
 /* Section à propos de moi */
 #about-me {
-    width: 100%; /* Prendre toute la largeur */
-    background-color: #f9f9f9; /* Couleur d'arrière-plan */
+    width: 100%; 
+    background-color: #dcd4f1; 
     padding: 2rem 1rem;
-    display: flex; /* Utiliser Flexbox pour structurer */
-    justify-content: center; /* Centrer le contenu horizontalement */
-    align-items: center; /* Centrer verticalement */
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
 }
 
 /* Contenu de la section */
@@ -110,7 +110,7 @@ nav a:hover {
 /* Styliser la section des projets */
 #projects {
     padding: 2rem;
-    background-color: #f9f9f9;
+    background-color: #c4b6df;
 }
 
 /* Conteneur de chaque projet */
@@ -151,7 +151,7 @@ nav a:hover {
     border-radius: 4px;
     font-weight: bold;
     text-align: center;
-    white-space: nowrap; /* Empêche le bouton de se déformer */
+    white-space: nowrap; 
 }
 
 .project-description a:hover {
@@ -160,42 +160,46 @@ nav a:hover {
 
 body {
     display: flex;
-    flex-direction: column; /* Structure verticale */
-    height: 100vh; /* Fixe la hauteur au viewport */
-    margin: 0; /* Supprime les marges par défaut */
-    overflow-x: hidden; /* Empêche le défilement horizontal */
-    justify-content: space-between; /* Espacement entre les sections */
+    flex-direction: column; 
+    height: 100vh; 
+    margin: 0; 
+    overflow-x: hidden; 
+    justify-content: space-between; 
 }
 
-/* Section principale */
+
 main {
-    flex: 1; /* Prend tout l'espace disponible entre le header et le footer */
+    flex: 1; 
     display: flex;
-    flex-direction: column; /* Organise les éléments verticalement */
-    align-items: center; /* Centre tous les éléments horizontalement */
-    justify-content: flex-start; /* Garde tout le contenu en haut */
-    padding: 2rem; /* Ajoute un peu d'espace autour du contenu */
-    box-sizing: border-box; /* Inclut le padding dans la taille */
-    width: 100%; /* S'assure que la section principale occupe toute la largeur */
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: flex-start; 
+    padding: 2rem; 
+    box-sizing: border-box; 
+    width: 100%; 
 }
 
 #contact {
     padding: 2rem;
-    background-color: #f9f9f9;
+    background-color: #c4b6df;
+}
+
+#contact h2{
+    background-color: #dcd4f1;
 }
 
 /* Footer principal */
 #main-footer {
-    background-color: #7B68EE;
+    background-color: #dcd4f1;
     color: #fff;
     padding: 1rem 0;
     text-align: center;
 }
 
 section {
-    width: 100%; /* Prend toute la largeur de l'écran */
-    margin: 0 auto; /* Centre le contenu horizontalement */
-    text-align: center; /* Centrer le texte dans chaque section */
+    width: 100%; 
+    margin: 0 auto; 
+    text-align: center; 
     padding: 1rem;
 }
 
