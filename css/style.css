@@ -59,23 +59,22 @@ nav a:hover {
     padding: 2rem 1rem;
     display: flex; 
     justify-content: center; 
-    align-items: center; 
+    box-sizing: border-box;
 }
 
 /* Contenu de la section */
 #about-me .content {
-    display: flex; /* Structure avec texte et photo */
-    justify-content: space-between; /* Espacement entre texte et photo */
-    align-items: center; 
-    max-width: 1200px; /* Largeur maximale pour limiter le contenu */
-    width: 100%; /* Prendre toute la largeur disponible */
+    display: flex; 
+    flex-wrap: wrap; 
+    gap: 2rem; 
+    max-width: 1000px; 
+    width: 100%;
 }
 
 /* Texte dans l'introduction */
 #about-me .text {
-    flex: 2; /* Le texte occupe deux fois plus d’espace que l'image */
-    text-align: left; /* Centrer le texte */
-    padding-right: 1rem;
+    flex: 1; /* Prend le reste de l'espace */
+    text-align: left;
 }
 
 #about-me h1 {
@@ -92,19 +91,19 @@ nav a:hover {
 
 /* Photo à droite */
 #about-me .photo {
-    flex: 1; /* La photo occupe un espace plus petit */
-    display: flex; /* Permet de centrer l'image */
+    flex: 0 0 200px; 
+    display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start; 
 }
 
 #about-me .photo img {
-    width: 180px; /* Taille de l'image */
-    height: 180px; /* Taille de l'image */
-    object-fit: cover; /* Recadrer l'image pour qu'elle soit bien remplie */
-    border-radius: 50%; /* Rendre l'image ronde */
-    border: 3px solid #ddd; /* Bordure légère autour de la photo */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Ajout d'une ombre douce */
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #ddd;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1)
 }
 
 /* Styliser la section des projets */
