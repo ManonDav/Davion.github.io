@@ -12,7 +12,7 @@
         <nav>
         <ul>
             <li><a href="#about-me">À propos</a></li>
-            <li><a href="#projects">Projets</a></li>
+            <li><a href="projets.html">Projets</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
@@ -50,7 +50,7 @@
             </p>
 
             <h2> Mes qualités</h2>
-            <p></p><strong>Rigoureuse et organisée</strong> : j’aime travailler avec méthode, planifier et structurer mes projets.</p>
+            <p><strong>Rigoureuse et organisée</strong> : j’aime travailler avec méthode, planifier et structurer mes projets.</p>
             <p><strong>Créative et persévérante</strong> : je ne me décourage pas face à un problème et je cherche toujours des solutions innovantes.</p>
             <p><strong>Esprit d’équipe</strong> : j’aime partager mes idées, collaborer et apprendre des autres.</p>
             <p><strong>Ouverte et enthousiaste</strong> : j’aborde mes projets avec énergie et optimisme.</p>
@@ -80,98 +80,7 @@
         </div>
     </div>
 </section>
-        <section>
-            <h2 id="projects">Mes projets</h2>
-            <div class="project">
-                <img src="images/PyXAI.png" alt="PyXAI" class="project-image">
-                <div class="project-description">
-                    <h3>Le framework d'explicabilité de l'IA : PyXAI</h3>
-                    
-                    <p>
-                        Aujourd’hui, de nombreux modèles d’intelligence artificielle (IA) fonctionnent comme de véritables 
-                        « boîtes noires » : ils donnent une prédiction (par exemple reconnaître une image ou approuver un crédit), 
-                        mais sans expliquer clairement <strong>pourquoi</strong>.  
-                        C’est ce qu’on appelle le problème de <strong>l’explicabilité de l’IA</strong> : aider les humains à comprendre 
-                        les décisions prises par un algorithme.
-                    </p>
-                    
-                    <p>
-                        <strong>PyXAI</strong> est une bibliothèque open-source développée au <strong>CRIL</strong> qui fournit des outils 
-                        pour analyser et expliquer les résultats de modèles de machine learning.  
-                        Elle permet, par exemple, de répondre à des questions comme :  
-                        <em>« Quelles sont les caractéristiques les plus importantes qui ont conduit ce modèle à cette décision ? »</em>  
-                        ou encore <em>« Que faudrait-il changer dans les données pour obtenir une décision différente ? »</em>
-                    </p>
-                    
-                    <p>
-                        Durant mon stage, j’ai contribué au développement de cette bibliothèque en intégrant plusieurs méthodes 
-                        d’explication :
-                    </p>
-                    <ul>
-                        <li><strong>PySAT</strong> pour produire des explications basées sur la logique SAT (raisonnement logique) ;</li>
-                        <li><strong>MIP</strong> (programmation linéaire en nombres entiers) avec <strong>Cplex</strong> et <strong>Gurobi</strong> 
-                            pour formuler et résoudre des explications sous forme d’optimisation mathématique ;</li>
-                        <li><strong>Ortools</strong> pour modéliser les explications comme des problèmes de satisfaction de contraintes.</li>
-                    </ul>
-                    
-                    <p>
-                        J’ai aussi participé à la <strong>refactorisation du code</strong> et à la mise en place de 
-                        <strong>nouvelles stratégies d’optimisation</strong>, ce qui a rendu la bibliothèque plus flexible, performante 
-                        et simple à utiliser pour la communauté scientifique.
-                    </p>
-                </div>
-                <a href="https://www.cril.univ-artois.fr/software/pyxai/" target="_blank">Voir le projet</a>
-            </div>
-            <div class="project">
-                <img src="images/snake-game.gif" alt="Snake Game" class="project-image">
-                <div class="project-description">
-                    <h3>Snake Game</h3>
-                    <p>Voici mon tout premier projet : un jeu Snake développé en Python avec Pygame.</p>
-                    <p>Dans ce jeu, on contrôle un serpent à l'aide des flèches directionnelles, et l'objectif est de manger le plus de pommes possible. Plus le serpent mange de pommes, plus il grandit. La partie est perdue si le serpent touche un mur ou son propre corps.</p>
-                </div>
-                <a href="https://github.com/ManonDav/snake-game-pygame" target="_blank">Voir le projet sur GitHub</a>
-            </div>
-            <div class="project">
-                <img src="images/Jeudumoulin.gif" alt="Jeu du moulin" class="project-image">
-                <div class="project-description">
-                    <h3>Jeu du moulin</h3>
-                    <p>Le jeu du Moulin développé en Python avec Pygame.</p>
-                    <p>Dans ce jeu, on joue contre l'ordinateur, que j'ai programmé pour qu'il essaie de nous bloquer et joue de manière stratégique. L'objectif est de former une suite de 3 pions alignés verticalement ou horizontalement. Lorsqu'on forme un moulin, on peut retirer un pion à l'adversaire.</p>
-                    <p>Pour gagner, il faut retirer les pions de l'adversaire jusqu'à ce qu'il ne lui en reste plus que deux.</p>
-                </div>
-                <a href="https://github.com/ManonDav/jeu_du_moulin" target="_blank">Voir le projet sur GitHub</a>
-            </div>
-            <div class="project">
-                <img src="images/Calculatrice.gif" alt="Calculatrice" class="project-image">
-                <div class="project-description">
-                    <h3>Une calculatrice interactif</h3>
-                    <p>Une calculatrice fonctionnelle développée en JavaScript.</p>
-                    <p>Il s'agit d'une calculatrice entièrement fonctionnelle qui inclut également la possibilité de tracer des graphiques.</p>
-                </div>
-                <a href="https://github.com/ManonDav/Calculatrice" target="_blank">Voir le projet sur GitHub</a>
-            </div>
-             <div class="project">
-                <img src="images/Sokoban.gif" alt="Sokoban" class="project-image">
-                <div class="project-description">
-                    <h3>Le jeu Sokoban</h3>
-                    <p>Le jeu Sokoban développé en Java.</p>
-                    <p>Le but du jeu Sokoban est de déplacer les caisses jusqu'aux emplacements prévus, sans se retrouver bloqué. Ce jeu inclut un bouton "Retour" qui permet d'annuler la dernière action, utile notamment en cas d'erreur. Le joueur contrôle le personnage à l'aide des flèches directionnelles.</p>
-                    <p>Le jeu propose trois niveaux de difficulté croissante.</p>
-                </div>
-                 <a href="https://github.com/ManonDav/Sokoban" target="_blank">Voir le projet sur GitHub</a>
-            </div>
-            <div class="project">
-                <img src="images/Pacman.gif" alt="Pacman" class="project-image">
-                <div class="project-description">
-                    <h3>Le célèbre Jeu Pacman en Bash</h3>
-                    <p>Le jeu Pacman développé en Shell.</p>
-                    <p>Nous avons créé une variante du jeu Pacman en utilisant le langage Bash. Dans notre version, vous pouvez choisir de concevoir votre propre carte ou de jouer sur l'une des quatre cartes prédéfinies que nous avons créées. Le but est de manger tous les bonbons sans se faire attraper par les fantômes.</p>
-                    <p>Lorsque Pacman mange un bonbon spécial, il devient invincible pendant un court laps de temps. Cela lui permet de manger les fantômes, qui réapparaissent ensuite à leur point de départ.</p>
-                </div>
-                <a href="https://github.com/ManonDav/Pacman" target="_blank">Voir le projet sur GitHub</a>
-            </div>
-            
-        </section>
+        
         <section id="contact">
             <h2 >Contact</h2>
             <p>Email : <a href="mailto:manon.davion@gmail.com">manon.davion@gmail.com</a></p>
