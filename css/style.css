@@ -52,7 +52,6 @@ nav a:hover {
     color: #ffa500;
 }
 
-/* Section à propos de moi */
 #about-me {
     width: 100%; 
     background-color: #dcd4f1; 
@@ -64,7 +63,6 @@ nav a:hover {
     border-radius: 12px;
 }
 
-/* Contenu de la section */
 #about-me .content {
     display: flex; 
     flex-wrap: wrap; 
@@ -73,9 +71,9 @@ nav a:hover {
     width: 100%;
 }
 
-/* Texte dans l'introduction */
+
 #about-me .text {
-    flex: 1; /* Prend le reste de l'espace */
+    flex: 1; 
     text-align: left;
 }
 
@@ -96,7 +94,7 @@ nav a:hover {
     color: #555;
 }
 
-/* Photo à droite */
+
 #about-me .photo {
     flex: 0 0 200px; 
     display: flex;
@@ -113,56 +111,53 @@ nav a:hover {
     box-shadow: 0 4px 6px rgba(0,0,0,0.1)
 }
 
-/* Styliser la section des projets */
+
 #projects {
     padding: 2rem;
     background-color: #c4b6df;
 }
 
-/* Conteneur de chaque projet */
-.project {
-    display: flex; /* Utilisation de Flexbox */
-    align-items: center; /* Aligner verticalement les éléments */
-    justify-content: space-between; /* Espacement uniforme entre les colonnes */
-    margin-bottom: 2rem; /* Espacement entre les projets */
+
+.project1 {
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+    margin-bottom: 2rem; 
     padding: 1rem;
-    background: white;
+    background-color:  #c4b6df;
     border: 1px solid #ddd;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(123, 104, 238, 0.2);
-    width: 98%; /* Prendre toute la largeur disponible */
+    width: 98%; 
 }
 
-/* Image du projet */
+.project2 {
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+    margin-bottom: 2rem; 
+    padding: 1rem;
+    background-color:  #dcd4f1;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(123, 104, 238, 0.2);
+    width: 98%; 
+}
+
+
 .project-image {
-    width: 250px; /* Taille ajustée pour les GIF */
-    height: auto; /* Conserver les proportions */
-    margin-right: 1rem; /* Espacement avec la description */
-    border-radius: 8px; /* Coins arrondis */
+    width: 250px; 
+    height: auto; 
+    margin-right: 1rem; 
+    border-radius: 8px; 
 }
 
-/* Description du projet */
+
 .project-description {
-    flex: 2; /* La description occupe plus de place */
-    margin-right: 1rem; /* Espacement avec le bouton */
+    flex: 2; 
+    margin-right: 1rem; 
 }
 
-/* Bouton GitHub */
-.project-description a {
-    display: inline-block;
-    padding: 0.5rem 1rem;
-    background-color: #7B68EE;
-    color: white;
-    text-decoration: none;
-    border-radius: 4px;
-    font-weight: bold;
-    text-align: center;
-    white-space: nowrap; 
-}
-
-.project-description a:hover {
-    background-color: #0056b3;
-}
 
 body {
     display: flex;
